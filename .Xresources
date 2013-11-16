@@ -1,0 +1,27 @@
+! -- Xterm settings -- !
+xterm*font:         -*-dina-medium-r-*-*-*-80-*-*-*-*-*-*
+xterm*boldFont:     -*-dina-medium-r-*-*-*-80-*-*-*-*-*-*
+xterm*utf8:         2
+xterm*toolBar:      false
+xterm*scrollBar:    false
+xterm*rightScrollBar: false
+xterm*background:   #1A1A1A
+xterm*foreground:   #A9A9A9
+xterm*geometry:     80x30 
+
+! -- RXVT settings -- !
+URxvt.buffered: true
+URxvt.cursorColor:      #5E468C
+URxvt.geometry:         80x24
+URxvt.internalBorder:   14
+URxvt*scrollBar_right:  false
+URxvt*scrollBar:        false
+URxvt*borderLess:       false
+URxvt.font:             xft:dejavu sans mono:size=9
+URxvt.boldFont:         xft:dejavu sans mono:size=9
+URxvt*.background:       #1A1A1A
+URxvt*.foreground:       #A9A9A9
+urxvt*.transparent:      true
+urxvt*.shading:          20
+
+#include </home/cam/.colours/dark>

@@ -1,0 +1,19 @@
+#!/bin/sh
+
+while true
+do
+    xsetroot -name "$(date +"%R")"
+    sleep 60
+done &
+
+setxkbmap -option caps:escape
+
+wmname LG3D
+
+if [ -f ~/.Xresources ]; then
+    xrdb ~/.Xresources
+fi
+
+urxvtd -q -o -f &
+
+exec dwm

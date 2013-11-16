@@ -1,0 +1,25 @@
+[user]
+  name = Cam Owen
+  email = camsnail@gmail.com
+[color]
+  diff = auto
+  ui = true
+[alias]
+  ap = add -p
+  ci = commit
+  co = checkout
+  cb = checkout -b
+  di = diff
+  dc = diff --cached
+  st = stash
+  sp = stash pop
+  si = stash --keep-index
+  cp = cherry-pick
+  lo = log --oneline
+  a3 = am -3
+  fp = format-patch
+  ra = rebase -i --autosquash
+  rc = rebase --continue
+  lg =  log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[push]
+  default = simple
