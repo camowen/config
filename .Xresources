@@ -19,10 +19,10 @@ URxvt*scrollBar:        false
 URxvt*borderLess:       false
 URxvt.font:             xft:dejavu sans mono:size=9
 URxvt.boldFont:         xft:dejavu sans mono:size=9
-URxvt*.background:       #1A1A1A
+URxvt*.background:       #0A0A0A
 URxvt*.foreground:       #A9A9A9
-urxvt*.transparent:      true
-urxvt*.shading:          20
+!urxvt*.transparent:      true
+!urxvt*.shading:          20
 
 !#include </home/cam/.colours/dark>
 #include </home/cam/.colours/smyck>
