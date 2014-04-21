@@ -24,4 +24,5 @@ URxvt*.foreground:       #A9A9A9
 urxvt*.transparent:      true
 urxvt*.shading:          20
 
-#include </home/cam/.colours/dark>
+!#include </home/cam/.colours/dark>
+#include </home/cam/.colours/smyck>
