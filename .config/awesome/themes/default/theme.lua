@@ -10,15 +10,16 @@ theme.bg_normal     = "#444444"
 theme.bg_focus      = "#444444"
 theme.bg_urgent     = "#444444"
 theme.bg_minimize   = "#444444"
+theme.bg_systray    = theme.bg_normal
 
 theme.fg_normal     = "#bbbbbb"
-theme.fg_focus      = "#ff8000"
-theme.fg_urgent     = "#ff4000"
+theme.fg_focus      = "#a9d0f5"
+theme.fg_urgent     = "#a9d0f5"
 theme.fg_minimize   = "#bbbbbb"
 
 theme.border_width  = "1"
 theme.border_normal = "#444444"
-theme.border_focus  = "#ff8000"
+theme.border_focus  = "#a9d0f5"
 theme.border_marked = "#444444"
 
 -- There are other variable sets
@@ -32,10 +33,10 @@ theme.border_marked = "#444444"
 --theme.taglist_bg_focus = "#ff0000"
 
 -- Display the taglist squares
-theme.taglist_squares_sel   = "/usr/share/awesome/themes/default/taglist/squarefw.png"
-theme.taglist_squares_unsel = "/usr/share/awesome/themes/default/taglist/squarew.png"
+theme.taglist_squares_sel   = "/home/cam/.config/awesome/themes/default/taglist/squarefw.png"
+theme.taglist_squares_unsel = "/home/cam/.config/awesome/themes/default/taglist/squarew.png"
 
-theme.tasklist_floating_icon = "/usr/share/awesome/themes/default/tasklist/floatingw.png"
+theme.tasklist_disable_icon = true
 
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
@@ -74,7 +75,8 @@ theme.titlebar_maximized_button_normal_active = "/usr/share/awesome/themes/defau
 theme.titlebar_maximized_button_focus_active  = "/usr/share/awesome/themes/default/titlebar/maximized_focus_active.png"
 
 -- You can use your own command to set your wallpaper
-theme.wallpaper_cmd = { "awsetbg /usr/share/awesome/themes/default/background.png" }
+theme.wallpaper = "/home/cam/Pictures/F16-alpha-wallpaper-standard.png"
+theme.wallpaper_cmd = { "feh --no-fehbg --bg-fill /home/cam/pictures/F16-alpha-wallpaper-standard.png" }
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = "/usr/share/awesome/themes/default/layouts/fairhw.png"
@@ -96,6 +98,8 @@ theme.awesome_icon = "/usr/share/awesome/icons/awesome16.png"
 theme.layout_txt_tile = "[T]"
 theme.layout_txt_floating = "[F]"
 theme.layout_txt_max = "[M]"
+
+theme.icon_theme = nil
 
 return theme
 -- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80
